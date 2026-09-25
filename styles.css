@@ -1,11 +1,8 @@
-/* definimos los colores y fondo */
 h1 {
     font-size: 20px;
     font-family: sans-serif;
     font-weight: bold;
     border-style: solid;
-    /*border-color: red;
-    border-radius: 5px;*/
     align-content: center;
     color: red;
     text-align: center;
@@ -27,7 +24,7 @@ hgroup {
     display: block;
 }
 
-/* Alinear los textos del cuerpo */
+
 body {
     text-align: center;
     background: gray;
@@ -36,7 +33,7 @@ body {
     margin: 15px auto;
 }
 
-/* Estilamos el header*/
+
 .header {
     background: #FFFBB9;
     border: 1px solid #999999;
@@ -51,39 +48,28 @@ body {
 .menu {
     background: #bdc3c7;
     padding: 5px 15px;
-    /*espacio arriba y abajo de 5, a los lados de 15px*/
     text-align: right;
-    /*alinear a la derecha las opciones*/
+
 }
 
 .menu li {
-    /* estilizar todo elemento li que esté dentre de una clase menu*/
     list-style: none;
-    /* quitar los tres punticos del menu*/
     padding: 5px;
-    /* espacios de 5px entre cada opcion*/
     font: bold 12px verdana;
     border: 1px solid black;
-    /* bordes de las opciones*/
     display: inline-block;
-    /*ubicar en linea horizontal las opciones*/
 }
 
 .seccion {
     width: 600px;
-    /* Ancho del area del html, dejar espacio para los ASIDE*/
     margin: 20px;
-    /*border:1px solid black;*/
     float: left;
-    /* se incluye para que la sección flote y al me flotar se salga del */
 }
 
 article {
     background: #fffbcc;
-    /*darle fondo alos articulos*/
     border: 1px solid #999;
     margin-bottom: 15px;
-    /*separar los articulos*/
 }
 
 time {
@@ -91,25 +77,16 @@ time {
 }
 
 article footer {
-    /* estilizar todos los pie de pagina que estén dentro de un art */
     text-align: right;
-    /* alinea los comentarios*/
 }
 
 .columna {
     width: 300px;
-    /* ancho del aside*/
-    /*border: 1px solid black;*/
     float: left;
-    /* se incluye para que el aside flote y al flotar se sale del ma */
     margin: 20px 0px;
-    /* alinear el aside con el seccion por la parte superior*/
 }
 
-/*Estilizar los dos mensajes*/
 .columna blockquote {
-    /*border: 1px solid black;*/
-    /*border: 1px dashed black; /*Bordes punteados*/
     border: 0px solid black;
     padding: 40px;
     background: #FFFBB9;
@@ -117,20 +94,15 @@ article footer {
 
 .pie {
     clear: both;
-    /* volver a la posición normal el ASIDE*/
     padding: 20px;
     background: #2d3436;
     color: #ffffff;
 
 }
 
-/* Estilizar el logotipo*/
 img {
     width: 200px;
-    /*estiizar el ancho de la imagen a 200 px*/
     display: block;
-    /* al mover el logo, se coloca lineal al frente de publi */
     margin: auto;
-    /*ubica el logo en el centro.*/
     height: 140px;
 }
